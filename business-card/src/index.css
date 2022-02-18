@@ -47,6 +47,7 @@ body {
 .info_section--website {
   margin: 9px 0 0;
   font-size: 11px;
+  cursor: pointer;
 }
 
 .info_section--button {
