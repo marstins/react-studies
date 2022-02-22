@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <section>
-        {travel.map(location => <Card location={location} />)}
+        {travel.map(location => <Card key={location.id} location={location} />)}
       </section>
     </div>
   );
