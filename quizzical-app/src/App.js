@@ -123,7 +123,7 @@ function App() {
           <>
             {questionary.map(item => <QuestionCard key={item.questionId} question={item} handleClick={selectOption} scoreboard={endScreen}/>)}
             <div className="button-container">
-              <h2>You got {score}/5 right answers!</h2>
+              <h2>You scored {score}/5 correct answers!</h2>
               <Button text={"Restart"} handleClick={resetGame}/>
             </div>
           </>
