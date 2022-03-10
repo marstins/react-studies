@@ -2,7 +2,7 @@ import {useState, useEffect} from "react"
 import QuestionCard from "./components/QuestionCard"
 import Button from "./components/Button"
 import {decode} from "html-entities"
-import { nanoid } from 'nanoid'
+import { nanoid } from "nanoid"
 
 function App() {
   const [quiz, setQuiz] = useState([])
@@ -130,7 +130,7 @@ function App() {
         }
       </main>
     </div>
-  );
+  )
 }
 
 export default App;
